@@ -1,0 +1,139 @@
+body {
+    background-color: hsl(218, 11%, 8%);
+    font-family: 'Overpass', sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+   
+
+}
+
+.container {
+    width: clamp(20.4375rem, 18.566901408450704rem + 7.981220657276995vw, 25.75rem);
+    border-radius: 30px;
+    background: hsl(215, 20%, 17%);
+    padding: 2em;
+    max-width: 400px;
+}
+
+.star-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    background: hsl(214, 7%, 21%);
+}
+
+.star-icon img {
+    padding: 1em;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.45rem + 0.25vw, 1.75rem);
+    color: white;
+}
+
+.content p {
+    color: #969FAD;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 340px;
+}
+
+.ratings {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2em;
+    justify-content: center;
+
+}
+
+a {
+    color: #7C8798;
+    background: hsl(214, 7%, 21%);
+    padding: 1em 1.5em;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: white;
+    background: #FC7614;
+}
+a:focus{
+    background: #7C8798;
+    color: white;
+}
+a:active {
+    background: #7C8798;
+    color: white;
+}
+
+button {
+    letter-spacing: 2px;
+    background: #FC7614;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    height: 45px;
+    width: clamp(17.4375rem, 16.6625rem + 3.875vw, 21.3125rem);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #FC7614;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.thankYouCard {
+    width: clamp(20.4375rem, 18.566901408450704rem + 7.981220657276995vw, 25.75rem);
+    border-radius: 30px;
+    background: hsl(215, 20%, 17%);
+    padding: 2em;
+}
+
+.message p {
+    color: #969FAD;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.thx h3 {
+    text-align: center;
+}
+
+.logo, .rating {
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-bottom:1em;
+}
+
+.rating p {
+    color: #FC7614;
+    background: hsl(214, 7%, 21%);
+    border-radius: 22.5px;
+    max-width: 193px;
+    text-align: center;
+    padding: 0.5em 2em;
+}
+
+.thankYouCard{
+    display: none;
+}
+
